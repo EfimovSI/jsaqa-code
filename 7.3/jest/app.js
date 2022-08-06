@@ -1,6 +1,6 @@
 function sortByName(inputArray) {
   inputArray.sort(function (a, b) {
-    var nameA = a.toLowerCase(),
+    const nameA = a.toLowerCase(),
       nameB = b.toLowerCase();
     if (nameA < nameB)
       //сортируем названия по возрастанию

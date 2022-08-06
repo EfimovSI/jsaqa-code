@@ -4,7 +4,16 @@
   "description": "jest test",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "eslint": "eslint",
+    "testCoverage": "jest --collectCoverage",
+    "jest": {
+      "collectCoverageFrom": [
+        "**/*.{js,jsx}",
+        "!**/node_modules/**",
+        "!**/vendor/**"
+      ]
+    }
   },
   "keywords": [
     "jest",
@@ -14,6 +23,11 @@
   "author": "omelnikova",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^27.3.1"
+    "eslint-config-prettier": "^8.5.0",
+    "jest": "^27.5.1",
+    "prettier": "2.7.1"
+  },
+  "directories": {
+    "test": "test"
   }
 }
