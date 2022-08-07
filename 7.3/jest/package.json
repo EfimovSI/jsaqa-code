@@ -6,14 +6,7 @@
   "scripts": {
     "test": "jest",
     "eslint": "eslint",
-    "testCoverage": "jest --collectCoverage",
-    "jest": {
-      "collectCoverageFrom": [
-        "**/*.{js,jsx}",
-        "!**/node_modules/**",
-        "!**/vendor/**"
-      ]
-    }
+    "testCoverage": "jest --collectCoverage"
   },
   "keywords": [
     "jest",
@@ -23,9 +16,7 @@
   "author": "omelnikova",
   "license": "ISC",
   "devDependencies": {
-    "eslint-config-prettier": "^8.5.0",
-    "jest": "^27.5.1",
-    "prettier": "2.7.1"
+    "jest": "^27.5.1"
   },
   "directories": {
     "test": "test"

@@ -1,7 +1,7 @@
 /node_modules/
 
-
 .vscode/*
+user.js
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
